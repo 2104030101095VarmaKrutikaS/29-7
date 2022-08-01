@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>krutika</title>
+        </head>
+        <body>
+            <p id="Nan"></p>
+            <script>
+                const time = new  Date().getHours();
+                let greeting;
+                
+                if(time < 12){
+                    greeting = "Good afternoon";
+                }
+                else {
+                    greeting = "Have a good day";
+                }
+                document.getElementById("Nan").innerHTML = greeting;
+            </script>
+        </body>
+</html>
